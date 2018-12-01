@@ -1,0 +1,208 @@
+body {
+    margin: 0 auto;
+}
+.container {
+    max-width: 1076px;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(img/фоншапка.png);
+    repeat: no-repeat;
+}
+.header__logo {
+    padding-top: 161px;
+}
+.header__line {
+    padding-top: 41px;
+}
+.header__line-inner {
+    border: 2px solid #ffffff;
+    width: 510px;
+}
+.header__navigate {
+    padding-top: 50px;
+    padding-left: 180px;
+}
+.header__navigate-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header__navigate-menu-list {
+    list-style-type: none;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    line-height: 2.0;
+    margin: 0;
+}
+.header__social {
+    display: flex;
+    padding-left: 220px;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+.header__social-insta {
+    padding-left: 22px;
+}
+.nav__bar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__bar-menu {
+    padding-left: 30px;
+}
+
+.nav__bar-menu-list {
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav__bar-menu-list-point {
+    padding-left: 74px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.about {
+    padding-top: 136px;
+}
+.about__line {
+    padding-top: 59px;
+}
+.about__line-inner {
+    border: 2px solid #000000;
+    width: 525px;
+}
+.about__inner-text {
+    padding-top: 64px;
+    padding-left: 180px;
+    max-width: 728px;
+    font-family: 'Montserrat';
+    line-height: 2.0;
+    font-size: 23px;
+    text-align: justify;
+    padding-bottom: 150px;
+}
+.case__title {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.case__preview {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 75px;
+    padding-bottom: 71px;
+}
+
+.case__preview-description-title {
+    font-family: 'Montserrat';
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.case__preview-description-text {
+    padding-top: 34px;
+    font-family: 'Montserrat';
+    max-width: 337px;
+    line-height: 1.5;
+}
+.service {
+    background-color: #161616;
+    padding-bottom: 165px;
+}
+.service__title {
+    padding-top: 71px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.case__subtitle {
+    padding-top: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Montserrat'; 
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.service__preview {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.service__preview-block {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    text-align: center;
+    max-width: 294px;
+    max-height: 187px;
+}
+.service__preview-block-title {
+    padding-top: 10px;
+}
+.service__preview-block-description {
+    padding-top: 15px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 118px;
+}
+.footer__title {
+    padding-left: 270px;
+}
+.footer__line {
+    padding-top: 44px; 
+    display: flex;
+    justify-content: center;  
+}
+.footer__line-inner {
+    border: 2px solid #000000;
+    width: 525px;
+    text-align: center;
+}
+
+.footer__contact {
+    padding-top: 68px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 530px;
+    font-family: 'Montserrat';
+    color: #000000;
+    font-size: 36px;
+}
+.footer__contact-mail {
+    padding-top: 40px;
+}
+.footer__contact-social {
+    padding-top: 41px;
+    display: flex;
+}
+.footer__contact-social-insta {
+    padding-left: 29px;
+}
+.footer__subtitle {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 50px;
+}
